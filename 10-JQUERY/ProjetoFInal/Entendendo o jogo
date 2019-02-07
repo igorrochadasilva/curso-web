@@ -1,0 +1,24 @@
+Bom a lógica de funcionamento do jogo é a seguinte:
+
+O palco do jogo é mapeado em 9 campos, distribuídos em 3 linhas e 3 colunas, cada campo possui um id próprio para identificá-lo, os campos possuem também um evento de clique associado a ele. No momento que algum dos campos é clicado é chamada uma função jogada que recebe como parâmetro o id do campo clicado e identificar qual jogador clicou, ao final dessa função é chamada outra função, a verifica_combinacao, que nada mais é do que uma função que vai verificar no palco do jogo se há algum ganhador.
+
+No caso do primeiro for, ele irá percorrer os 3 índices do array matriz_jogo['a'] , por isso o i = 1; i <= 3 , e dentro do for há a mudança no valor da variável pontos, que é usada para verificar se há um ganhador, se a variável pontos estiver com o valor 3 ao final da iteração do for significa que o jogador 1 venceu, e caso esteja com -3 significa que o jogador 2 venceu, por isso do incremento da variável pontos.
+
+Em relação a como o valor 1 ou -1 é passado para os índices do array matriz_jogo, é nesse trecho da função jogada que isso acontece:
+
+if((rodada % 2) == 1){
+    icone = 'url("imagens/marcacao_1.png")';
+    ponto = -1;
+} else {
+    icone = 'url("imagens/marcacao_2.png")';
+    ponto = 1;
+}
+É verificado qual dos jogadores que jogou e de acordo com isso é atribuído um valor à variável pontos, que posteriormente é passado para o índice do array matriz_jogo, especificamente nessa linha:
+
+matriz_jogo[linha_coluna[0]][linha_coluna[1]] = ponto; 
+
+Espero que sua dúvida tenha sido esclarecida.
+
+Para qualquer outra dúvida, estou a disposição :D
+
+Att,

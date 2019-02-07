@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventos-teclado</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+
+        //aula EVENTOS 2
+
+        //onkeydown - acionado no momento em que uma tecla é pressionada(soltando ou não a tecla)
+        //onkeypress - acionando no momento em que uma tecla é pressionada(soltando-a ou não), porém não captura todas as teclas, como por exemplo alt,ctrl,esc,shift,etc.
+        //onkeyup - acionada no momento em que a tecla é liberada.
+
+function msgBoasVindas(){
+    alert('Seja bem vindo, você pressionou o botão esquerdo do mouse sobre este elemento')
+}
+
+	</script>
+</head>
+<body>
+    <input onkeypress="alert('Uma tecla foi acionada')" type="text"/>
+</body>
+</html>
+
+
+

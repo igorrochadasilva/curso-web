@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+     <head>
+         <meta charset="UTF-8">
+
+         <title>Jquery eventos teclado</title>
+
+         <script src="jquery-3.3.1.js"></script>
+
+         <script type="text/javascript">
+
+            $(document).ready( function(){
+
+                 //keydown
+                 //keypress
+                 //keyup
+       
+            
+                 $('#campo1').keydown( function(){    
+                     alert('botão foi pressionado');
+                 });
+
+                 $('#campo2').keypress( function(){    
+                     alert('diferença é que não é capiturada algumas teclas');
+                 });
+
+                 $('#campo3').keyup( function(){    
+                     alert('botão foi liberado');
+                 });
+
+            
+
+                 });   //codificação javascript somente quando o DOM estiver pronto, esta função é 
+
+        </script>
+    </head>
+
+    <body>
+
+        <input id="campo1" type="tex">
+        <input id="campo2" type="tex">
+        <input id="campo3" type="tex">
+        
+    </body>
+</html>

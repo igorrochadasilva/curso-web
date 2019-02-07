@@ -1,0 +1,61 @@
+.item{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    overflow: auto;          /* visible = por padrao seja visivel*/
+                               /* hidden = por padrao fique escondido*/
+                                /* scroll = por padrao tenha barra de rolagem*/
+                                 /* auto = exibe a barra de rolagem apenas se for necessaria*/
+}
+
+
+
+
+
+
+
+
+/*
+
+@media screen and (max-width: 767px){   para telas e com tamanho maximo de 767
+    body{
+        background: red;
+    }
+    p{
+        font-size: 5px;
+    }
+}
+
+@media screen and (min-width: 768px){   
+    body{
+        background: blue;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 992px){   
+    body{
+        background: orange;
+    }
+    p{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 1200px){   
+    body{
+        background: white;
+    }
+    p{
+        font-size: 100px;
+    }
+}
+
+
+
+
+
+
+

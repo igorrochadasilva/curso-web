@@ -1,0 +1,18 @@
+#box{
+  width: 300px;
+  height: 300px;
+  background: blue;
+  box-sizing: border-box;
+  padding: 20px; 
+  border-radius: 20px; 
+  -webkit-border-radius:20px; /*webkit= chorme e safari*/
+  -moz-border-radius:20px; /*moz = firefox*/
+}
+
+
+
+
+/*aula 85 e 87 degrades, transparencia*/
+/*border-radius = define uma borda redonda*/
+/*utilizar prefixo para o funcionamento em outros browsers*/
+/*box-sizing: = determina o tamanho da box e não almenta utilizando outros atributos*/

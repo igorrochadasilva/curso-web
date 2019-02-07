@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+    <head>
+	   <title>Formatação de textos</title>
+	   <meta charset="utf-8"/>
+
+	   <style type="text/css">
+    
+    p{
+      font-size: 30px;
+      font-family: "Georgia";
+    }
+
+    .texto{
+      font-size: 16px; /*px, %, em*/
+          }
+
+    .negrito{
+      font-weight: bold;
+    }
+
+    .estilo{
+            font-style: oblique;
+    }
+
+    .texto-padrao{
+              font: bold 40px "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+
+    .formatacao{
+      text-decoration: line-through;        /* overline ;,underline;*/
+    }
+       
+	   </style>
+    </head>
+
+       <body>
+              
+              <div>
+              <p class="texto">Lorem ipsum dolor sit amet, <span class="formatacao">consectetur</span> adipiscing elit.</p>
+              <p class="negrito">conteudo 1 </p>
+              <p class="estilo">conteudo 2 </p>
+              <p class="texto-padrao">conteudo 3 </p>
+
+       	     </div>
+       </body> 
+</html>
+
+<!--AULA-46 - FOORMATAÇÃO PART 1 -->
+        <!-- cores= utilizando exadecimais, e obrigatorio colcoar no começo um #362346
+        <font-size: define o tamanho da fonte em pixels
+        <font-family: define a fonte da letra
+        em= define de forma proporcional a forma do texto
+
+  AULA-47 - FOORMATAÇÃO PART 2 -->
+        <!--font-weight: bold; = definir se o texto é em negrito
+         font-style: oblique;
+         text-decoration: underline; coloca underline na linha
+         text-decoration: overline; a linha fica acima do texto
+         text-decoration: line-through; a linha fica em cima do texto

@@ -1,0 +1,26 @@
+.estpontos{
+    float:left;
+     width:auto;
+     height:500px;
+     background: #FFF;
+     border: solid 1px #A2A2A2; 
+     margin-right: 5px;
+}
+
+.estcronometro{
+    color: red;
+    font-size: 30px;
+
+}
+
+.imgcronometro{
+    background: url('../imagens/cronometro.png');
+    text-align:center;
+}
+
+.estcenario{
+    float: left; 
+    width: 600px;
+    height: 500px;
+    background: url('../imagens/cenario.png') no-repeat; 
+}

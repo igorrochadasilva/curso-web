@@ -1,0 +1,14 @@
+
+/*  Transições   */
+#box-transicao{
+    width: 300px;
+    height: 300px;
+    background: orange;
+}
+
+#box-transicao:hover{   /*altera a cor apos passar o mouse*/
+    width: 400px;
+    background: black;
+    transition: all 5s;  /*altera a cor de acordo com o tempo*/
+}
+

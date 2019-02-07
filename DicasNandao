@@ -1,0 +1,39 @@
+executar o xampp: sudo /opt/lampp/manager-linux.run
+
+https://repl.it/ibuiltthis/all
+
+estudar laravel e VUE
+
+
+an used css vai facilitar a vida
+
+
+araks merche - 
+
+FIAP - faculdade de informatica (FODA)
+
+FERRAMENTA PRA LIMPA
+
+ALDIT DO CHORME - limpa codigos desnecessarios.
+
+https://www.awwwards.com/websites/bootstrap/
+
+O que o front-end experiente deve saber?
+Resolução de DNS, o uso de redes de fornecimento de conteúdo (CDN), e desempenho de múltiplos Hostnames nas chamadas de recursos. -OK
+Cabeçalhos HTTP (Expires, Cache-Control, If-Modified-Since)
+Todas as regras do Steve Souders (Websites de alto desempenho)
+Como resolver todos os problemas mostrados pelo PageSpeed, YSlow, Chrome Dev Tools Audit, Chrome Dev Tools Timeline.
+Quando deixar tarefas para o servidor ou para o browser.
+Uso de cache, técnicas de pre-fetching e post-load.
+Javascript nativo, saber quando fazer algo a partir do zero, procurar o código de outros, e ao mesmo tempo, ser capaz de avaliar os prós e os contras de usá-los.
+Conhecimento e uso de bibliotecas modernas MVC Javascript: AngularJS, EmberJS, ReactJS
+Conhecimento e uso de bibliotecas gráficas: D3, SnapSVG
+Conhecimento e uso de bibliotecas de manipulação do DOM: jQuery, Zepto
+Conhecimento e uso de bibliotecas de lazy loading: RequireJS, CommonJS
+Gerenciadores de tarefas com Grunt ou Gulp
+Gerenciadores de pacotes: Yarn, NPM, Componentjs
+Testes: Protractor, Selenium, QUnit, Jasmine
+Formatos de imagem, benefícios, quando usar cada um e como, técnicas de otimização de imagem e estratégias de carregamento (sprites, técnicas de carregamento lento, limpeza de cache, PNG entrelaçado)
+Conhecimento e uso de padrões CSS, convenções e estratégias modernas (por exemplo, BEM, SMACSS, OOCSS)
+Conhecimento em re-paint e re-flow do browser
+Ciência da Computação do Javascript (memory management, single threaded nature, garbage collector algorithms, timeouts, scoping, hoisting, patterns)

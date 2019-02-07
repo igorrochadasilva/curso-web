@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+     <head>
+         <meta charset="UTF-8">
+
+         <title>Jquery eventos - mouse</title>
+
+         <script src="jquery-3.3.1.js"></script>
+
+         <script type="text/javascript">
+
+            $(document).ready( function(){
+
+                 //click
+                 //dbclick
+                 //mousedown
+                 //mouseover
+                 //mouseout
+            
+                 $('#div1').click( function(){    //click com unico click
+                     alert('Elemento foi clicado');
+                 });
+
+                  $('#div2').dblclick( function(){    //dblclick com unico click
+                     alert('Elemento foi clicado 2 vezes');
+                 });
+
+                 $('#div3').mousedown( function(){    //mousedown com unico click
+                     alert('Elemento foi precisonado e antes de soltalo acontece');
+                 });
+
+                 $('#div4').mouseover( function(){    //mouseover com unico click
+                     alert('Elemento foi sobreposto');
+                 });
+
+                 $('#div5').mouseout( function(){    //mouseout com unico click
+                     alert('Área do elemento foi deixada pelo cursor');
+                 });
+
+            });   //codificação javascript somente quando o DOM estiver pronto, esta função é 
+
+        </script>
+    </head>
+
+    <body>
+            <div id="div1" style="height: 150px; width: 150px; background: #CCC"></div>
+            <div id="div2" style="height: 150px; width: 150px; background: rgba(1, 1, 5, 0.774)"></div>
+            <div id="div3" style="height: 150px; width: 150px; background: rgba(4, 41, 204, 0.774)"></div>
+            <div id="div4" style="height: 150px; width: 150px; background: rgba(4, 204, 14, 0.774)"></div>
+            <div id="div5" style="height: 150px; width: 150px; background: rgba(204, 11, 4, 0.774)"></div>
+
+    </body>
+</html>
